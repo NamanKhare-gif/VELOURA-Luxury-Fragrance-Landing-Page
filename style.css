@@ -161,3 +161,27 @@ h1,h2,h3{
     letter-spacing: 2px;
     color: var(--text-primary);
 }
+
+.btn{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 27px;
+}
+
+.btn-primary{
+    background: var(--gold-button);
+    height: 44px;
+    border: none;
+    color: var(--text-dark);
+}
+
+.btn-secondary{
+    background: transparent;
+    height: 44px;
+    border: 1.5px solid var(--gold-button);
+    color: var(--gold-button);
+}
