@@ -126,7 +126,6 @@ h1,h2,h3{
     width: 100%;
     height: 618px;
     background-size: contain;
-    /* color: white; */
 }
 
 .hero-content{
@@ -212,6 +211,7 @@ h1,h2,h3{
     align-items: center;
     text-align: center;
     border-top: 1px solid var(--gold-primary);
+    border-bottom: 1px solid var(--gold-primary);
 }
 .brand-logo img{
     width: 242px;
@@ -229,12 +229,6 @@ h1,h2,h3{
     line-height: 1.4;
 }
 
-.brand-values{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #story-title{
     font-family: "Cormorant Garamond", serif;
     font-size: 34px;
@@ -242,8 +236,12 @@ h1,h2,h3{
     line-height: 1.2;
     color: var(--gold-light);
     text-align: center;
-    margin: 20px 0 18px;
     letter-spacing: 0.3px;
+    margin-top: 20px;
+}
+
+.story-content{
+    margin-top: 0px;   
 }
 
 .story-description{
@@ -252,6 +250,7 @@ h1,h2,h3{
     line-height: 2.1;
     letter-spacing: 0.2px;
     color: #C8C4BE;
+    margin-top: 16px;
 }
 
 .story-highlight{
@@ -262,14 +261,47 @@ h1,h2,h3{
     color: #C8C4BE;
 }
 
+.brand-values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
 
+.value-icon img{
+    width: 72px;
+    height: 54px;
+}
 
+.crown{
+    margin-top: -9px;
+}
 
+.value-card h3{
+    font-family: "Cormorant Garamond", serif;
+    color: var(--gold-light);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
 
+.value-card p{
+    font-family: Arial, sans-serif;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 180px;
+}
 
 
 /* Responsive Design */
-
 
 @media (max-width : 1075px) {
     .nav-list{
