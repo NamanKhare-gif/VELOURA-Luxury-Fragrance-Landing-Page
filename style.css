@@ -93,6 +93,10 @@ h1,h2,h3{
     color: white;
 }
 
+.side-bar{
+    display: none;
+}
+
 #active{
     color: var(--gold-primary);
 }
@@ -118,17 +122,18 @@ h1,h2,h3{
 
 .hero-background{
     background: url(Hero-img.png);
+    background-repeat: no-repeat;
     width: 100%;
     height: 618px;
     background-size: contain;
-    color: white;
+    /* color: white; */
 }
 
 .hero-content{
     text-align: center;
     width: 495px;
-    padding-top: 90px;
-    padding-left: 92px;
+    padding-top: 66px;
+    padding-left: 72px;
 }
 
 .hero-eyebrow{
@@ -196,4 +201,37 @@ h1,h2,h3{
     height: 44px;
     border: 1.5px solid var(--gold-button);
     color: var(--gold-button);
+}
+
+
+
+
+@media (max-width : 1075px) {
+    .nav-list{
+        gap: 40px;
+    }
+}
+
+
+@media (max-width : 1005px) {
+    .nav-list{
+        gap: 20px;
+    }
+    .hero-content{
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+}
+
+@media (max-width: 914px) {
+    .nav-list{
+        display: none;
+    }
+    .side-bar{
+        display: inline-block;
+        i{
+            font-size: 27px;
+            color: var(--gold-primary);
+        }
+    }
 }
