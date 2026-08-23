@@ -150,8 +150,6 @@ Planned improvements for future versions:
 
 **Naman Khare**
 
-Frontend development learner building projects to improve HTML, CSS, JavaScript and modern web development skills.
-
 ---
 
 ⭐ If you like this project, consider giving the repository a star!
